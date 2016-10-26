@@ -36,8 +36,8 @@ public class MethodTest extends TestCase {
     @Test
     public void testDeleteElement(){
         String str = "We are so happy. We have many apples and fishes to eat.";
-        String res = de.deleteElement(str,'a');
-        Assert.assertFalse(res.contains("a"));
+        String res = de.deleteElement(str,'h');
+        Assert.assertFalse(res.contains("h"));
     }
 }
 
